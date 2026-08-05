@@ -31,8 +31,8 @@ test.use({ viewport: { width: 1600, height: 1000 } });
 
 import { test, expect } from '@playwright/test';
 
-// // set viewport for this file's tests
-// test.use({ viewport: { width: 1500, height: 1000 } })
+// set viewport for this file's tests
+test.use({ viewport: { width: 1500, height: 1000 } })
 
 test("Verify valid Register New User", async ({ page }) => {
 
@@ -56,7 +56,7 @@ test("Verify valid Register New User", async ({ page }) => {
     await page.locator('input#LastName').fill('Doe');
 
 
-    await page.getByLabel('Email:').fill('deb7+36i@yopmail.com');
+    await page.getByLabel('Email:').fill('deb7+11i@yopmail.com');
 
 
     await page.locator('input#Password').fill('test@1234');
@@ -72,3 +72,15 @@ test("Verify valid Register New User", async ({ page }) => {
 
 
 });
+
+
+/* 
+If we want screenshots, videos & trace files automatically inside the report then 
+then in the playwright.config.js file >> inside projects add 
+3 methods in use object
+
+        screenshot: "on",
+        video: "on",
+        trace: "on"
+
+*/
