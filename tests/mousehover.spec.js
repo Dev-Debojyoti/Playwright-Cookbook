@@ -28,7 +28,7 @@ test.describe('Auth Flow page', () => {
 
         await expect(page).toHaveURL('https://freelance-learn-automation.vercel.app/');
 
-        await page.getByText('Manage').nth(0).hover();
+        await page.getByText('Manage', { exact: true }).hover();
 
         await page.getByText('Manage Courses').click();
 
