@@ -53,7 +53,7 @@ test.describe('Keyboard actions in Playwright', () => {
     });
 
 
-    test.only('Verify multiple keyboard stroke scenario 3', async({ page }) => {
+    test('Verify multiple keyboard stroke scenario 3', async({ page }) => {
 
         // Type from Keyboard --> Andrew Anderson
         // Then need to remove ANderson from end 
@@ -74,9 +74,5 @@ test.describe('Keyboard actions in Playwright', () => {
         await page.keyboard.up('Shift');
 
     });
-
-
-
-
 
 })
