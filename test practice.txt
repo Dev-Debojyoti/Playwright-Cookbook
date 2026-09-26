@@ -1,0 +1,37 @@
+list of sites u can practice automation_______________
+
+1. https://www.saucedemo.com/
+
+2. https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+3. http://uitestingplayground.com/home
+
+4. https://demoqa.com/
+
+5. https://practicetestautomation.com/practice-test-login/
+
+6. https://demo.opencart.com/
+
+7. https://parabank.parasoft.com/parabank/index.htm
+
+8. https://demowebshop.tricentis.com/register
+
+9. https://practice.expandtesting.com/
+
+to check viewport size use this sites
+
+    https://whatismyviewport.com/
+
+    Some Commands 
+    
+npx playwright --help
+npx playwright test --help
+npx playwright test ./tests/sample.spec.js
+npx playwright test ./tests/sample.spec.js --headed
+npx playwright test ./tests/sample.spec.js --project=chromium
+npx playwright test ./tests/sample.spec.js --project="Google Chrome"
+npx playwright test ./tests/sample.spec.js --project="Google Chrome" --headed
+npx playwright test ./tests/sample.spec.js ./tests/verifyErrorMessage.spec.js  --headed
+npx playwright test sample
+npx playwright test -g "My First Test"
+npx playwright test

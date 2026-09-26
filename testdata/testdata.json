@@ -1,0 +1,14 @@
+{
+    "email": "admin@gmail.com",
+    "password" : "Admin@123",
+    "name" : "Debojyoti",
+    "interests" : ["Selenium", "Playwright", "Cypress"],
+    "gender": ["Male", "Female"],
+    "address": 
+    {
+        "state" : "West Bengal",
+        "city" : "Durgapur",
+        "street" : "Anandapur, Nadiha",
+        "pincode" : "713211"
+    }
+}
