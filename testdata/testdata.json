@@ -1,6 +1,6 @@
 {
-    "email": "admin@gmail.com",
-    "password" : "Admin@123",
+    "email": "admin@email.com",
+    "password" : "admin@123",
     "name" : "Debojyoti",
     "interests" : ["Selenium", "Playwright", "Cypress"],
     "gender": ["Male", "Female"],
